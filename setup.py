@@ -6,8 +6,6 @@ version = '0.1.0'
 setup(name='avrcdata.policy',
       version=version,
       description="The collection of products required for the AVRC Data website",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
@@ -31,9 +29,7 @@ setup(name='avrcdata.policy',
           'collective.indexing',
           'jyu.z3cform.datepicker',
           'plone.app.caching',
-          'beast.cache',
           'avrc.aeh',
-          'plone.app.dexterity',
           'hive.arv',
           'hive.lab',
           'hive.symptom',
@@ -41,15 +37,15 @@ setup(name='avrcdata.policy',
           'plone.app.ldap',
           'plone.session',
           'plone.resource',
-          'plone.app.intid'
           # -*- Extra requirements: -*-
       ],
+    extras_require=dict(
+        test=['plone.app.testing'],
+        ),
       entry_points="""
       # -*- Entry points: -*-
 
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
