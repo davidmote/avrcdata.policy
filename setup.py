@@ -32,7 +32,7 @@ setup(
         'plone.app.ldap',
         'plone.session',
         'plone.resource',
-
+        'beast.securelogin',
         'avrc.aeh',
         'hive.arv',
         'hive.lab',
