@@ -11,5 +11,6 @@
         <dependency>profile-hive.lab:default</dependency>
         <dependency>profile-hive.symptom:default</dependency>
         <dependency>profile-plone.app.ldap:ldap</dependency>
+        <dependency>profile-occams.form:default</dependency>
     </dependencies>
 </metadata>
