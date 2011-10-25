@@ -9,9 +9,9 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="avrcdata.policy"
+      title="AVRCDATA Site Policy"
       directory="profiles/default"
-      description="Installs the avrcdata.policy package"
+      description="Installs the AVRCDATA Site policy package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
