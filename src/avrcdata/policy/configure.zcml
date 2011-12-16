@@ -6,6 +6,8 @@
     i18n_domain="avrcdata.policy">
 
   <includeDependencies package="." />
+  <!-- Don't grok upgrades since it contains CLI scripts -->
+  <include package=".upgrades" />
 
   <genericsetup:registerProfile
       name="default"
@@ -14,7 +16,6 @@
       description="Installs the AVRCDATA Site policy package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-
 
   <!-- -*- extra stuff goes here -*- -->
   
