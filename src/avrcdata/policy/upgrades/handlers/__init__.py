@@ -1,0 +1,2 @@
+""" Generic setup handler module.
+"""
