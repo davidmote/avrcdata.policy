@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.1'
+version = '0.1.2'
 
 setup(
     name='avrcdata.policy',
@@ -38,6 +38,7 @@ setup(
         'hive.lab',
         'hive.symptom',
         'hive.roster',
+        'occams.form'
         ],
     extras_require=dict(
         test=['plone.app.testing'],
