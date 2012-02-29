@@ -14,4 +14,14 @@
       handler=".handlers.to_002.import_"
       profile="avrcdata.policy:default"
       />
+
+   <genericsetup:upgradeStep
+      title="Modify views for Clinical Product"
+      description="Modify the views for the clinical product,  and then make sure that the other products have their views reinstalled"
+      source="002"
+      destination="003"
+      handler=".handlers.to_003.import_"
+      profile="avrcdata.policy:default"
+      />
+
 </configure>
