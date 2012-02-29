@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="avrcdata.policy">
+
+  <!-- Upgrade registrations. -->
+
+   <genericsetup:upgradeStep
+      title="Modify INameFromTitle for Clinical Product"
+      description="Modify the INameFromTitle for the clinical product,  and then make sure that the other products have their views reinstalled"
+      source="001"
+      destination="002"
+      handler=".handlers.to_002.import_"
+      profile="avrcdata.policy:default"
+      />
+
+   <genericsetup:upgradeStep
+      title="Modify views for Clinical Product"
+      description="Modify the views for the clinical product,  and then make sure that the other products have their views reinstalled"
+      source="002"
+      destination="003"
+      handler=".handlers.to_003.import_"
+      profile="avrcdata.policy:default"
+      />
+
+</configure>
