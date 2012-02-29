@@ -7,6 +7,7 @@
         <dependency>profile-jyu.z3cform.datepicker:default</dependency>
         <dependency>profile-beast.securelogin:default</dependency>
         <dependency>profile-avrc.aeh:default</dependency>
+        <dependency>profile-occams.form:default</dependency>
         <dependency>profile-hive.arv:default</dependency>
         <dependency>profile-hive.lab:default</dependency>
         <dependency>profile-hive.symptom:default</dependency>
