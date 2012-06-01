@@ -34,9 +34,9 @@ setup(
         'plone.resource',
         'beast.securelogin',
         'avrc.aeh',
-        'hive.arv',
-        'hive.lab',
-        'hive.symptom',
+        'occams.drug',
+        'occams.lab',
+        'occams.symptom',
         'hive.roster',
         'occams.form'
         ],
