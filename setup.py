@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.3'
+version = '0.2.0'
 
 setup(
     name='avrcdata.policy',
@@ -34,9 +34,9 @@ setup(
         'plone.resource',
         'beast.securelogin',
         'avrc.aeh',
-        'hive.arv',
-        'hive.lab',
-        'hive.symptom',
+        'occams.drug',
+        'occams.lab',
+        'occams.symptom',
         'hive.roster',
         'occams.form'
         ],
