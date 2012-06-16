@@ -8,9 +8,9 @@
         <dependency>profile-beast.securelogin:default</dependency>
         <dependency>profile-avrc.aeh:default</dependency>
         <dependency>profile-occams.form:default</dependency>
-        <dependency>profile-hive.arv:default</dependency>
-        <dependency>profile-hive.lab:default</dependency>
-        <dependency>profile-hive.symptom:default</dependency>
+        <dependency>profile-occams.drug:default</dependency>
+        <dependency>profile-occams.lab:default</dependency>
+        <dependency>profile-occams.symptom:default</dependency>
         <dependency>profile-plone.app.ldap:ldap</dependency>
     </dependencies>
 </metadata>
