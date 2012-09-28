@@ -11,6 +11,7 @@
         <dependency>profile-occams.drug:default</dependency>
         <dependency>profile-occams.lab:default</dependency>
         <dependency>profile-occams.symptom:default</dependency>
+        <dependency>profile-aeh.longform:default</dependency>
         <dependency>profile-plone.app.ldap:ldap</dependency>
     </dependencies>
 </metadata>
