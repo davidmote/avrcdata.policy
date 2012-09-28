@@ -38,7 +38,8 @@ setup(
         'occams.lab',
         'occams.symptom',
         'hive.roster',
-        'occams.form'
+        'occams.form',
+        'aeh.longform'
         ],
     extras_require=dict(
         test=['plone.app.testing'],
