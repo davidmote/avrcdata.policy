@@ -37,7 +37,7 @@ setup(
         'occams.drug',
         'occams.lab',
         'occams.symptom',
-        'hive.roster',
+        'occams.roster',
         'occams.form',
         'aeh.longforms'
         ],
